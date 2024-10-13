@@ -1,0 +1,45 @@
+.modal {
+  background-color: rgb(217, 255, 255);
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 20px;
+  min-width: 400px;
+  min-height: 280px;
+}
+
+.modal p {
+  text-align: center;
+}
+
+.modal-wrapper {
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-modal-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+
+.my-modal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.my-modal-exit {
+  opacity: 1;
+}
+
+.my-modal-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: opacity 1000ms, transform 1000ms;
+}
