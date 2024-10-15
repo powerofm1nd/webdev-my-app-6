@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './css/App.css';
-import styles from "./css/App.module.css";
-import MyDialogue from "./MyDialogue.jsx"
-import UserList from "./UserList.jsx"
-import MyStyledButton from './MyStyledButton.jsx';
-import MyStyledDiv from './MyStyledDiv.jsx';
+import logo from '../../logo.svg';
+import './App.css';
+import styles from "./App.module.css";
+import MyDialogue from "../MyDialogue/MyDialogue.jsx"
+import UserList from "../UserList/UserList.jsx"
+import MyStyledButton from '../StyledComponents/MyStyledButton.jsx';
+import MyStyledDiv from '../StyledComponents/MyStyledDiv.jsx';
 
 function App() {
   return (

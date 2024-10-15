@@ -1,4 +1,4 @@
-import "./css/UserList.css"
+import "../UserList/UserList.css"
 
 function UserCard({onCloseClick, userId, userName, userAge})
 {

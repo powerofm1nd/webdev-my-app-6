@@ -1,6 +1,6 @@
-import './css/UserList.css';
+import './UserList.css';
 import { useState } from 'react'
-import UserCard from './UserCard';
+import UserCard from '../UserCard/UserCard';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 function UserList() {

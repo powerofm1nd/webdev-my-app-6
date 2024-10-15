@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { CSSTransition } from 'react-transition-group';
-import styles from './css/MyDialogue.module.css';
+import styles from './MyDialogue.module.css';
 
 function MyDialogue() {
     const [inProp, setInProp] = useState(false);
